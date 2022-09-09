@@ -132,7 +132,7 @@ function init() {
     console.log('INIT! opencv version:', api.version());
     processWasm();
     document.getElementById('myButton').addEventListener('click', testWasm);
-    document.getElementById('imgInput').addEventListener('change', onImageLoad);
+    // document.getElementById('imgInput').addEventListener('change', onImageLoad);
     // document.getElementById('dateCardField').addEventListener('change', onDateCardFieldChange);
   };
 }
