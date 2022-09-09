@@ -1,22 +1,17 @@
-.container {
-  max-width: 900px;
+#mainContainer {
+  max-width: 816px;
   margin: 0 auto;
 }
 
-.io-container {
-  display: flex;
-  max-width: 900px;
-  margin: 0 auto;
+.control {
+  margin-bottom: 16px;
 }
 
-.inputoutput {
-  width: 100%;
+#canvasContainer {
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
-.inputoutput img {
-  max-width: 100%;
-  margin-bottom: 8px;
+#canvasContainer canvas {
+  margin: 1px;
 }

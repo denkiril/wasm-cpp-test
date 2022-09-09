@@ -1,0 +1,22 @@
+{
+  "name": "wasm-cpp-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/denkiril/wasm-cpp-test.git"
+  },
+  "author": "Denis Kirilyuk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/denkiril/wasm-cpp-test/issues"
+  },
+  "homepage": "https://github.com/denkiril/wasm-cpp-test#readme",
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}

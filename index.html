@@ -7,10 +7,28 @@
 </head>
 
 <body>
-  <div class="container">
+  <div id="mainContainer">
     <h1>WASM-CPP TEST</h1>
 
-    <button id="mybutton">Run myFunction</button>
+    <div class="control"><button id="myButton">Do magic!</button></div>
+    <div class="control"><input type='file' id='imgInput' accept='image/*'></div>
+    <!-- <div class="control"><canvas id="canvasOutput" ></canvas></div> -->
+    <div id="canvasContainer"></div>
+    <!-- <div class="control">
+      <input
+        type="text"
+        autocomplete="cc-number"
+        inputmode="numeric"
+        x-inputmode="numeric"
+      />
+      <input
+        type="text"
+        autocomplete="cc-exp"
+        inputmode="numeric"
+        x-inputmode="numeric"
+        id="dateCardField"
+      />
+    </div> -->
   </div>
 
   <script src="assets/main.js"></script>
